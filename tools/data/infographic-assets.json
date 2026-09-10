@@ -16,14 +16,14 @@
     },
     {
       "key": "nap",
-      "sourceFile": "revision-2/nap.png",
-      "sourceSha256": "ad475cf30406bf5eabbcd2550ba74a53bb20cb825eaf31c0491709a2747bbe70",
-      "sourceBytes": 2311010,
-      "id": "infographic-nap-ad475cf30406",
+      "sourceFile": "revision-3/nap-preview.png",
+      "sourceSha256": "e84e3131201ffe22a18a1ae4e69b643402935d7d91d60d3589fc7cbfb85e6167",
+      "sourceBytes": 2260150,
+      "id": "infographic-nap-e84e3131201f",
       "contentType": "image/png",
-      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-nap-ad475cf30406.png",
-      "publicSha256": "ad475cf30406bf5eabbcd2550ba74a53bb20cb825eaf31c0491709a2747bbe70",
-      "publicBytes": 2311010
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-nap-e84e3131201f.png",
+      "publicSha256": "e84e3131201ffe22a18a1ae4e69b643402935d7d91d60d3589fc7cbfb85e6167",
+      "publicBytes": 2260150
     },
     {
       "key": "explorer",
