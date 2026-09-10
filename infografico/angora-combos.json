@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "pageId": "infografico",
+  "domain": "pugestandar.com",
+  "combos": {
+    "iiCalcInput": [
+      "ank-width-100per",
+      "ank-boxSizing-borderMINbox",
+      "ank-minHeight-46px",
+      "ank-padding-11px",
+      "ank-border-2px__solid__HASH163b55",
+      "ank-borderRadius-10px",
+      "ank-bg-HASHfffdf5",
+      "ank-color-HASH163b55",
+      "ank-fontFamily-Arial",
+      "ank-fontSize-16px",
+      "ank-textAlign-left",
+      "ank-whiteSpace-normal"
+    ],
+    "iiCalcButton": [
+      "ank-cursor-pointer",
+      "ank-fontFamily-Arial"
+    ],
+    "iiCalcMenu": [
+      "ank-bg-HASHfffdf5",
+      "ank-color-HASH163b55",
+      "ank-border-2px__solid__HASH163b55",
+      "ank-borderRadius-10px",
+      "ank-padding-5px",
+      "ank-maxHeight-280px",
+      "ank-overflowY-auto",
+      "ank-minWidth-160px"
+    ],
+    "iiCalcOption": [
+      "ank-display-block",
+      "ank-padding-10px",
+      "ank-color-HASH163b55",
+      "ank-fontFamily-Arial",
+      "ank-fontSize-14px",
+      "ank-textDecoration-none",
+      "ank-borderRadius-6px",
+      "ank-cursor-pointer",
+      "ank-bgHover-HASHd8ebfc"
+    ],
+    "iiBounce": [
+      "ank-cursor-pointer",
+      "ank-transition-transform__150ms__ease",
+      "ank-transformHover-translateYSDMIN2pxED"
+    ],
+    "iiFaqButton": [
+      "ank-width-100per",
+      "ank-padding-16px",
+      "ank-bg-HASHfffdf5",
+      "ank-color-HASH163b55",
+      "ank-border-2px__solid__HASH163b55",
+      "ank-borderRadius-12px",
+      "ank-textAlign-left",
+      "ank-minHeight-48px",
+      "ank-cursor-pointer"
+    ],
+    "iiFaqContent": [
+      "ank-padding-16px",
+      "ank-fontSize-14px",
+      "ank-lineHeight-1_6",
+      "ank-color-HASH163b55"
+    ]
+  }
+}

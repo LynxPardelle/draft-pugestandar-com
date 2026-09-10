@@ -8,6 +8,11 @@
       "path": "/",
       "pageId": "default",
       "label": "Pug Estándar"
+    },
+    {
+      "path": "/infografico",
+      "pageId": "infografico",
+      "label": "Pug Estándar Infográfico"
     }
   ],
   "site": {

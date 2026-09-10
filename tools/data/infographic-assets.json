@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "domain": "pugestandar.com",
+  "pageId": "infografico",
+  "assets": [
+    {
+      "key": "hero",
+      "sourceFile": "hero.png",
+      "sourceSha256": "e236c25ae7af62fa2f39035ecd154c0e5fa6c99552588fdecb611c2be4141e48",
+      "sourceBytes": 2375284,
+      "id": "infographic-hero-e236c25ae7af",
+      "contentType": "image/png",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-hero-e236c25ae7af.png",
+      "publicSha256": "e236c25ae7af62fa2f39035ecd154c0e5fa6c99552588fdecb611c2be4141e48",
+      "publicBytes": 2375284
+    },
+    {
+      "key": "nap",
+      "sourceFile": "nap.png",
+      "sourceSha256": "b3a985c43f747f5af0edacfb0dd8e6ebb81acc1547d9598ae54a1895b72014b6",
+      "sourceBytes": 2330792,
+      "id": "infographic-nap-b3a985c43f74",
+      "contentType": "image/png",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-nap-b3a985c43f74.png",
+      "publicSha256": "b3a985c43f747f5af0edacfb0dd8e6ebb81acc1547d9598ae54a1895b72014b6",
+      "publicBytes": 2330792
+    },
+    {
+      "key": "explorer",
+      "sourceFile": "explorer.png",
+      "sourceSha256": "4406294623b2ff084784be13ba9f0d241164bf31c4efc269f02a2be415fddcf6",
+      "sourceBytes": 2125225,
+      "id": "infographic-explorer-4406294623b2",
+      "contentType": "image/png",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-explorer-4406294623b2.png",
+      "publicSha256": "4406294623b2ff084784be13ba9f0d241164bf31c4efc269f02a2be415fddcf6",
+      "publicBytes": 2125225
+    },
+    {
+      "key": "length",
+      "sourceFile": "svg/length.svg",
+      "sourceSha256": "6859949b7022601a68f0cad7e9c802858bdf21da0427380d9bb5a8efb4f050fc",
+      "sourceBytes": 5077,
+      "id": "infographic-length-6859949b7022",
+      "contentType": "image/svg+xml",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-length-6859949b7022.svg",
+      "publicSha256": "6859949b7022601a68f0cad7e9c802858bdf21da0427380d9bb5a8efb4f050fc",
+      "publicBytes": 5077
+    },
+    {
+      "key": "mass",
+      "sourceFile": "svg/mass.svg",
+      "sourceSha256": "23736c51c480611257ce802ea22655f162b2efb788b0519c8d7641f7fd52970f",
+      "sourceBytes": 4566,
+      "id": "infographic-mass-23736c51c480",
+      "contentType": "image/svg+xml",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-mass-23736c51c480.svg",
+      "publicSha256": "23736c51c480611257ce802ea22655f162b2efb788b0519c8d7641f7fd52970f",
+      "publicBytes": 4566
+    },
+    {
+      "key": "time",
+      "sourceFile": "svg/time.svg",
+      "sourceSha256": "22075d0230a21efb13b39494a9216b8e9470deb0d0b3e4ef7b310c873a4802ad",
+      "sourceBytes": 5568,
+      "id": "infographic-time-22075d0230a2",
+      "contentType": "image/svg+xml",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-time-22075d0230a2.svg",
+      "publicSha256": "22075d0230a21efb13b39494a9216b8e9470deb0d0b3e4ef7b310c873a4802ad",
+      "publicBytes": 5568
+    },
+    {
+      "key": "area",
+      "sourceFile": "svg/area.svg",
+      "sourceSha256": "0483a32473be212d2c962ac86ebe9ed2258be6d12380295e15cdb393def9471d",
+      "sourceBytes": 4663,
+      "id": "infographic-area-0483a32473be",
+      "contentType": "image/svg+xml",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-area-0483a32473be.svg",
+      "publicSha256": "0483a32473be212d2c962ac86ebe9ed2258be6d12380295e15cdb393def9471d",
+      "publicBytes": 4663
+    },
+    {
+      "key": "volume",
+      "sourceFile": "svg/volume.svg",
+      "sourceSha256": "af29604a36f177f90d3fe02867a41e7213ffaddcea5eeb8943288d1800a6eb0b",
+      "sourceBytes": 4501,
+      "id": "infographic-volume-af29604a36f1",
+      "contentType": "image/svg+xml",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-volume-af29604a36f1.svg",
+      "publicSha256": "af29604a36f177f90d3fe02867a41e7213ffaddcea5eeb8943288d1800a6eb0b",
+      "publicBytes": 4501
+    },
+    {
+      "key": "speed",
+      "sourceFile": "svg/speed.svg",
+      "sourceSha256": "8de75a395687970f5cae4860bdca6604e2d10ea702ca63b3c93785a86fe60a78",
+      "sourceBytes": 4669,
+      "id": "infographic-speed-8de75a395687",
+      "contentType": "image/svg+xml",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-speed-8de75a395687.svg",
+      "publicSha256": "8de75a395687970f5cae4860bdca6604e2d10ea702ca63b3c93785a86fe60a78",
+      "publicBytes": 4669
+    },
+    {
+      "key": "energy",
+      "sourceFile": "svg/energy.svg",
+      "sourceSha256": "8e38cebe8e5e14988de2a6fd5ef6ba319f6d1fb911d8d6c2e56ce1226af0142d",
+      "sourceBytes": 4782,
+      "id": "infographic-energy-8e38cebe8e5e",
+      "contentType": "image/svg+xml",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-energy-8e38cebe8e5e.svg",
+      "publicSha256": "8e38cebe8e5e14988de2a6fd5ef6ba319f6d1fb911d8d6c2e56ce1226af0142d",
+      "publicBytes": 4782
+    },
+    {
+      "key": "temperature",
+      "sourceFile": "svg/temperature.svg",
+      "sourceSha256": "46f90fe5bcffe6850824af68f3776769bb913168da7b3d989d434ded275ff1c0",
+      "sourceBytes": 4796,
+      "id": "infographic-temperature-46f90fe5bcff",
+      "contentType": "image/svg+xml",
+      "publicUrl": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/infographic-temperature-46f90fe5bcff.svg",
+      "publicSha256": "46f90fe5bcffe6850824af68f3776769bb913168da7b3d989d434ded275ff1c0",
+      "publicBytes": 4796
+    }
+  ]
+}
