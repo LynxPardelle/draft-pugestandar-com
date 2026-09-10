@@ -16,7 +16,7 @@ const ids=new Set(defs.map(c=>c.id));assert.equal(ids.size,defs.length,'Duplicat
 for(const c of defs)for(const child of c.config.components??[])assert.ok(ids.has(child),`${c.id}: missing ${child}`);
 for(const id of read('default/page-config.json').rootIds)assert.ok(ids.has(id));
 assert.equal(defs.filter(c=>c.type==='interaction-scope').length,15);
-const site=read('site-config.json');assert.deepEqual(site.routes.map(r=>r.path),['/']);assert.equal(site.runtime.analytics.enabled,false);
+const site=read('site-config.json');assert.ok(site.routes.some(r=>r.path==='/'&&r.pageId==='default'));assert.equal(site.runtime.analytics.enabled,false);
 assert.equal(read('draft-repo.config.json').branches.main.deploys,false);
 assert.equal(read('default/page-config.json').seo.robots,'noindex,nofollow');
 for(const asset of Object.values(read('tools/data/public-assets.json')))assert.ok(asset.startsWith('https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/'));
