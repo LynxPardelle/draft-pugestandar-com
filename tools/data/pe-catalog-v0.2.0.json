@@ -1,0 +1,2477 @@
+{
+  "systemName": "Pug Estándar",
+  "systemVersion": "0.2.0",
+  "basisSI": {
+    "L": {
+      "numerator": "3",
+      "denominator": "10",
+      "siUnit": "m"
+    },
+    "M": {
+      "numerator": "36",
+      "denominator": "5",
+      "siUnit": "kg"
+    },
+    "T": {
+      "numerator": "3",
+      "denominator": "5",
+      "siUnit": "s"
+    },
+    "I": {
+      "numerator": "1",
+      "denominator": "1",
+      "siUnit": "A"
+    },
+    "Theta": {
+      "numerator": "1",
+      "denominator": "1",
+      "siUnit": "K"
+    },
+    "N": {
+      "numerator": "1",
+      "denominator": "1",
+      "siUnit": "mol"
+    },
+    "Iv": {
+      "numerator": "1",
+      "denominator": "1",
+      "siUnit": "cd"
+    }
+  },
+  "units": [
+    {
+      "id": "pe_length",
+      "symbol": "PE_L",
+      "name": "Pug Estándar de longitud",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "3",
+        "denominator": "10",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_mass",
+      "symbol": "PE_M",
+      "name": "Pug Estándar de masa",
+      "quantityKind": "mass",
+      "dimension": {
+        "L": 0,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg",
+      "scaleToSI": {
+        "numerator": "36",
+        "denominator": "5",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_time",
+      "symbol": "PE_T",
+      "name": "Pug Estándar de tiempo",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "3",
+        "denominator": "5",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_length_aux",
+      "symbol": "PE_LA",
+      "name": "Largo auxiliar PE",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "9",
+        "denominator": "20",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_breath",
+      "symbol": "PE_R",
+      "name": "Respiración auxiliar PE",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "3",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_life",
+      "symbol": "PE_VI",
+      "name": "Vida auxiliar PE",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "378691200",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_area",
+      "symbol": "PE_L^2",
+      "name": "Superficie",
+      "quantityKind": "area",
+      "dimension": {
+        "L": 2,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^2",
+      "scaleToSI": {
+        "numerator": "9",
+        "denominator": "100",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_volume",
+      "symbol": "PE_L^3",
+      "name": "Volumen",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "27",
+        "denominator": "1000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_speed",
+      "symbol": "PE_V",
+      "name": "Velocidad",
+      "quantityKind": "speed",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m/s",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "2",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_acceleration",
+      "symbol": "PE_A",
+      "name": "Aceleración",
+      "quantityKind": "acceleration",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m/s^2",
+      "scaleToSI": {
+        "numerator": "5",
+        "denominator": "6",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_frequency",
+      "symbol": "PE_FQ",
+      "name": "Frecuencia",
+      "quantityKind": "frequency",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Hz",
+      "scaleToSI": {
+        "numerator": "5",
+        "denominator": "3",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_force",
+      "symbol": "PE_F",
+      "name": "Fuerza",
+      "quantityKind": "force",
+      "dimension": {
+        "L": 1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "N",
+      "scaleToSI": {
+        "numerator": "6",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_energy",
+      "symbol": "PE_E",
+      "name": "Energía y trabajo",
+      "quantityKind": "energy",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "J",
+      "scaleToSI": {
+        "numerator": "9",
+        "denominator": "5",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_power",
+      "symbol": "PE_POT",
+      "name": "Potencia",
+      "quantityKind": "power",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -3,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "W",
+      "scaleToSI": {
+        "numerator": "3",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_pressure",
+      "symbol": "PE_PR",
+      "name": "Presión",
+      "quantityKind": "pressure",
+      "dimension": {
+        "L": -1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Pa",
+      "scaleToSI": {
+        "numerator": "200",
+        "denominator": "3",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "pe_density",
+      "symbol": "PE_D",
+      "name": "Densidad de masa",
+      "quantityKind": "mass_density",
+      "dimension": {
+        "L": -3,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg/m^3",
+      "scaleToSI": {
+        "numerator": "800",
+        "denominator": "3",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "nm",
+      "symbol": "nm",
+      "name": "Nanómetro",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "um",
+      "symbol": "um",
+      "name": "Micrómetro",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "mm",
+      "symbol": "mm",
+      "name": "Milímetro",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "cm",
+      "symbol": "cm",
+      "name": "Centímetro",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "100",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "m",
+      "symbol": "m",
+      "name": "Metro",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "km",
+      "symbol": "km",
+      "name": "Kilómetro",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "1000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "inch",
+      "symbol": "in",
+      "name": "Pulgada internacional",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "127",
+        "denominator": "5000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "foot",
+      "symbol": "ft",
+      "name": "Pie internacional",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "381",
+        "denominator": "1250",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "yard",
+      "symbol": "yd",
+      "name": "Yarda internacional",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "1143",
+        "denominator": "1250",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "mile",
+      "symbol": "mi",
+      "name": "Milla internacional",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "201168",
+        "denominator": "125",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "nmi",
+      "symbol": "nmi",
+      "name": "Milla náutica",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "1852",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "au",
+      "symbol": "au",
+      "name": "Unidad astronómica",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "149597870700",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "light_year",
+      "symbol": "ly",
+      "name": "Año luz juliano",
+      "quantityKind": "length",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m",
+      "scaleToSI": {
+        "numerator": "9460730472580800",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "ug",
+      "symbol": "ug",
+      "name": "Microgramo",
+      "quantityKind": "mass",
+      "dimension": {
+        "L": 0,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "mg",
+      "symbol": "mg",
+      "name": "Miligramo",
+      "quantityKind": "mass",
+      "dimension": {
+        "L": 0,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "g",
+      "symbol": "g",
+      "name": "Gramo",
+      "quantityKind": "mass",
+      "dimension": {
+        "L": 0,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kg",
+      "symbol": "kg",
+      "name": "Kilogramo",
+      "quantityKind": "mass",
+      "dimension": {
+        "L": 0,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "tonne",
+      "symbol": "t",
+      "name": "Tonelada métrica",
+      "quantityKind": "mass",
+      "dimension": {
+        "L": 0,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg",
+      "scaleToSI": {
+        "numerator": "1000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "lb",
+      "symbol": "lb",
+      "name": "Libra avoirdupois",
+      "quantityKind": "mass",
+      "dimension": {
+        "L": 0,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg",
+      "scaleToSI": {
+        "numerator": "45359237",
+        "denominator": "100000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "oz",
+      "symbol": "oz",
+      "name": "Onza avoirdupois",
+      "quantityKind": "mass",
+      "dimension": {
+        "L": 0,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg",
+      "scaleToSI": {
+        "numerator": "45359237",
+        "denominator": "1600000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "ns",
+      "symbol": "ns",
+      "name": "Nanosegundo",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "us",
+      "symbol": "us",
+      "name": "Microsegundo",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "ms",
+      "symbol": "ms",
+      "name": "Milisegundo",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "s",
+      "symbol": "s",
+      "name": "Segundo",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "minute",
+      "symbol": "min",
+      "name": "Minuto",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "60",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "hour",
+      "symbol": "h",
+      "name": "Hora",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "3600",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "day",
+      "symbol": "d",
+      "name": "Día convencional",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "86400",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "week",
+      "symbol": "week",
+      "name": "Semana convencional",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "604800",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "julian_year",
+      "symbol": "a_J",
+      "name": "Año convencional de 365.25 días",
+      "quantityKind": "time",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": 1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "s",
+      "scaleToSI": {
+        "numerator": "31557600",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "cm2",
+      "symbol": "cm^2",
+      "name": "Centímetro cuadrado",
+      "quantityKind": "area",
+      "dimension": {
+        "L": 2,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^2",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "10000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "m2",
+      "symbol": "m^2",
+      "name": "Metro cuadrado",
+      "quantityKind": "area",
+      "dimension": {
+        "L": 2,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^2",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "km2",
+      "symbol": "km^2",
+      "name": "Kilómetro cuadrado",
+      "quantityKind": "area",
+      "dimension": {
+        "L": 2,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^2",
+      "scaleToSI": {
+        "numerator": "1000000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "ha",
+      "symbol": "ha",
+      "name": "Hectárea",
+      "quantityKind": "area",
+      "dimension": {
+        "L": 2,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^2",
+      "scaleToSI": {
+        "numerator": "10000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "ft2",
+      "symbol": "ft^2",
+      "name": "Pie internacional cuadrado",
+      "quantityKind": "area",
+      "dimension": {
+        "L": 2,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^2",
+      "scaleToSI": {
+        "numerator": "145161",
+        "denominator": "1562500",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "acre",
+      "symbol": "acre_int",
+      "name": "Acre basado en pie internacional",
+      "quantityKind": "area",
+      "dimension": {
+        "L": 2,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^2",
+      "scaleToSI": {
+        "numerator": "316160658",
+        "denominator": "78125",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "m3",
+      "symbol": "m^3",
+      "name": "Metro cúbico",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "liter",
+      "symbol": "L",
+      "name": "Litro",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "ml",
+      "symbol": "mL",
+      "name": "Mililitro",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "cm3",
+      "symbol": "cm^3",
+      "name": "Centímetro cúbico",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "ft3",
+      "symbol": "ft^3",
+      "name": "Pie internacional cúbico",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "55306341",
+        "denominator": "1953125000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "gal_us",
+      "symbol": "gal_US",
+      "name": "Galón líquido estadounidense",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "473176473",
+        "denominator": "125000000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "gal_imp",
+      "symbol": "gal_Imp",
+      "name": "Galón imperial",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "454609",
+        "denominator": "100000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "cup_250",
+      "symbol": "cup_250mL",
+      "name": "Taza definida de 250 mL",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "4000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "cup_us",
+      "symbol": "cup_US",
+      "name": "Taza estadounidense",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "473176473",
+        "denominator": "2000000000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "tbsp_15",
+      "symbol": "tbsp_15mL",
+      "name": "Cucharada definida de 15 mL",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "3",
+        "denominator": "200000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "tsp_5",
+      "symbol": "tsp_5mL",
+      "name": "Cucharadita definida de 5 mL",
+      "quantityKind": "volume",
+      "dimension": {
+        "L": 3,
+        "M": 0,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m^3",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "200000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "m_s",
+      "symbol": "m/s",
+      "name": "Metro por segundo",
+      "quantityKind": "speed",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m/s",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "km_h",
+      "symbol": "km/h",
+      "name": "Kilómetro por hora",
+      "quantityKind": "speed",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m/s",
+      "scaleToSI": {
+        "numerator": "5",
+        "denominator": "18",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "mph",
+      "symbol": "mph",
+      "name": "Milla por hora",
+      "quantityKind": "speed",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m/s",
+      "scaleToSI": {
+        "numerator": "1397",
+        "denominator": "3125",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "knot",
+      "symbol": "kn",
+      "name": "Nudo",
+      "quantityKind": "speed",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m/s",
+      "scaleToSI": {
+        "numerator": "463",
+        "denominator": "900",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "m_s2",
+      "symbol": "m/s^2",
+      "name": "Metro por segundo cuadrado",
+      "quantityKind": "acceleration",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m/s^2",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "g0_accel",
+      "symbol": "g0",
+      "name": "Aceleración normal de gravedad",
+      "quantityKind": "acceleration",
+      "dimension": {
+        "L": 1,
+        "M": 0,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "m/s^2",
+      "scaleToSI": {
+        "numerator": "196133",
+        "denominator": "20000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "Hz",
+      "symbol": "Hz",
+      "name": "Hercio",
+      "quantityKind": "frequency",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Hz",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kHz",
+      "symbol": "kHz",
+      "name": "Kilohercio",
+      "quantityKind": "frequency",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Hz",
+      "scaleToSI": {
+        "numerator": "1000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "MHz",
+      "symbol": "MHz",
+      "name": "Megahercio",
+      "quantityKind": "frequency",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Hz",
+      "scaleToSI": {
+        "numerator": "1000000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "bpm",
+      "symbol": "bpm",
+      "name": "Latidos por minuto",
+      "quantityKind": "frequency",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Hz",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "60",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "intrinsicContext": {
+        "eventType": "heartbeat"
+      }
+    },
+    {
+      "id": "breaths_min",
+      "symbol": "resp/min",
+      "name": "Respiraciones por minuto",
+      "quantityKind": "frequency",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Hz",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "60",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "intrinsicContext": {
+        "eventType": "breath"
+      }
+    },
+    {
+      "id": "rpm",
+      "symbol": "rev/min",
+      "name": "Revoluciones por minuto",
+      "quantityKind": "frequency",
+      "dimension": {
+        "L": 0,
+        "M": 0,
+        "T": -1,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Hz",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "60",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "intrinsicContext": {
+        "eventType": "rotation"
+      }
+    },
+    {
+      "id": "N",
+      "symbol": "N",
+      "name": "Newton",
+      "quantityKind": "force",
+      "dimension": {
+        "L": 1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "N",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kN",
+      "symbol": "kN",
+      "name": "Kilonewton",
+      "quantityKind": "force",
+      "dimension": {
+        "L": 1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "N",
+      "scaleToSI": {
+        "numerator": "1000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kgf",
+      "symbol": "kgf",
+      "name": "Kilogramo-fuerza",
+      "quantityKind": "force",
+      "dimension": {
+        "L": 1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "N",
+      "scaleToSI": {
+        "numerator": "196133",
+        "denominator": "20000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "lbf",
+      "symbol": "lbf",
+      "name": "Libra-fuerza",
+      "quantityKind": "force",
+      "dimension": {
+        "L": 1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "N",
+      "scaleToSI": {
+        "numerator": "8896443230521",
+        "denominator": "2000000000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "J",
+      "symbol": "J",
+      "name": "Julio",
+      "quantityKind": "energy",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "J",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kJ",
+      "symbol": "kJ",
+      "name": "Kilojulio",
+      "quantityKind": "energy",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "J",
+      "scaleToSI": {
+        "numerator": "1000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "MJ",
+      "symbol": "MJ",
+      "name": "Megajulio",
+      "quantityKind": "energy",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "J",
+      "scaleToSI": {
+        "numerator": "1000000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "Wh",
+      "symbol": "Wh",
+      "name": "Vatio hora",
+      "quantityKind": "energy",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "J",
+      "scaleToSI": {
+        "numerator": "3600",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kWh",
+      "symbol": "kWh",
+      "name": "Kilovatio hora",
+      "quantityKind": "energy",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "J",
+      "scaleToSI": {
+        "numerator": "3600000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "cal_th",
+      "symbol": "cal_th",
+      "name": "Caloría termoquímica",
+      "quantityKind": "energy",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "J",
+      "scaleToSI": {
+        "numerator": "523",
+        "denominator": "125",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kcal_th",
+      "symbol": "kcal_th",
+      "name": "Kilocaloría termoquímica",
+      "quantityKind": "energy",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "J",
+      "scaleToSI": {
+        "numerator": "4184",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "W",
+      "symbol": "W",
+      "name": "Vatio",
+      "quantityKind": "power",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -3,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "W",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kW",
+      "symbol": "kW",
+      "name": "Kilovatio",
+      "quantityKind": "power",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -3,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "W",
+      "scaleToSI": {
+        "numerator": "1000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "hp_mechanical",
+      "symbol": "hp_mech",
+      "name": "Caballo de potencia mecánico",
+      "quantityKind": "power",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -3,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "W",
+      "scaleToSI": {
+        "numerator": "37284993579113511",
+        "denominator": "50000000000000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "CV_metric",
+      "symbol": "CV",
+      "name": "Caballo de potencia métrico",
+      "quantityKind": "power",
+      "dimension": {
+        "L": 2,
+        "M": 1,
+        "T": -3,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "W",
+      "scaleToSI": {
+        "numerator": "588399",
+        "denominator": "800",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "Pa",
+      "symbol": "Pa",
+      "name": "Pascal",
+      "quantityKind": "pressure",
+      "dimension": {
+        "L": -1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Pa",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kPa",
+      "symbol": "kPa",
+      "name": "Kilopascal",
+      "quantityKind": "pressure",
+      "dimension": {
+        "L": -1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Pa",
+      "scaleToSI": {
+        "numerator": "1000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "bar",
+      "symbol": "bar",
+      "name": "Bar",
+      "quantityKind": "pressure",
+      "dimension": {
+        "L": -1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Pa",
+      "scaleToSI": {
+        "numerator": "100000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "atm",
+      "symbol": "atm",
+      "name": "Atmósfera estándar",
+      "quantityKind": "pressure",
+      "dimension": {
+        "L": -1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Pa",
+      "scaleToSI": {
+        "numerator": "101325",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "psi",
+      "symbol": "psi",
+      "name": "Libra-fuerza por pulgada cuadrada",
+      "quantityKind": "pressure",
+      "dimension": {
+        "L": -1,
+        "M": 1,
+        "T": -2,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "Pa",
+      "scaleToSI": {
+        "numerator": "8896443230521",
+        "denominator": "1290320000",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kg_m3",
+      "symbol": "kg/m^3",
+      "name": "Kilogramo por metro cúbico",
+      "quantityKind": "mass_density",
+      "dimension": {
+        "L": -3,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg/m^3",
+      "scaleToSI": {
+        "numerator": "1",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "g_cm3",
+      "symbol": "g/cm^3",
+      "name": "Gramo por centímetro cúbico",
+      "quantityKind": "mass_density",
+      "dimension": {
+        "L": -3,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg/m^3",
+      "scaleToSI": {
+        "numerator": "1000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "id": "kg_L",
+      "symbol": "kg/L",
+      "name": "Kilogramo por litro",
+      "quantityKind": "mass_density",
+      "dimension": {
+        "L": -3,
+        "M": 1,
+        "T": 0,
+        "I": 0,
+        "Theta": 0,
+        "N": 0,
+        "Iv": 0
+      },
+      "siUnit": "kg/m^3",
+      "scaleToSI": {
+        "numerator": "1000",
+        "denominator": "1",
+        "piPower": 0
+      },
+      "offsetToSI": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    }
+  ]
+}

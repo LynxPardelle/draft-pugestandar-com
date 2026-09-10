@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "domain": "pugestandar.com",
+  "aliases": [],
+  "defaultPageId": "default",
+  "routes": [
+    {
+      "path": "/",
+      "pageId": "default",
+      "label": "Pug Estándar"
+    }
+  ],
+  "site": {
+    "appIdentity": {
+      "identifier": "pugestandar",
+      "name": "Pug Estándar",
+      "version": "0.2.0",
+      "description": "Calculadora educativa de unidades Pug Estándar."
+    },
+    "theme": {
+      "defaultMode": "light",
+      "palettes": {
+        "light": {
+          "bgColor": "#f5f1e8",
+          "textColor": "#20241f",
+          "titleColor": "#20241f",
+          "linkColor": "#1749c7",
+          "accentColor": "#1749c7",
+          "secondaryBgColor": "#e9eefc",
+          "secondaryTextColor": "#62685f",
+          "secondaryTitleColor": "#20241f",
+          "secondaryLinkColor": "#1749c7",
+          "secondaryAccentColor": "#1749c7",
+          "successColor": "#35603b",
+          "onSuccessColor": "#ffffff",
+          "errorColor": "#a52121",
+          "onErrorColor": "#ffffff",
+          "warningColor": "#866419",
+          "onWarningColor": "#ffffff",
+          "infoColor": "#1749c7",
+          "onInfoColor": "#ffffff"
+        },
+        "dark": {
+          "bgColor": "#f5f1e8",
+          "textColor": "#20241f",
+          "titleColor": "#20241f",
+          "linkColor": "#1749c7",
+          "accentColor": "#1749c7",
+          "secondaryBgColor": "#e9eefc",
+          "secondaryTextColor": "#62685f",
+          "secondaryTitleColor": "#20241f",
+          "secondaryLinkColor": "#1749c7",
+          "secondaryAccentColor": "#1749c7",
+          "successColor": "#35603b",
+          "onSuccessColor": "#ffffff",
+          "errorColor": "#a52121",
+          "onErrorColor": "#ffffff",
+          "warningColor": "#866419",
+          "onWarningColor": "#ffffff",
+          "infoColor": "#1749c7",
+          "onInfoColor": "#ffffff"
+        }
+      }
+    },
+    "seo": {
+      "siteName": "Pug Estándar",
+      "title": "Pug Estándar | Calculadora de unidades PE",
+      "description": "Convierte medidas a Pug Estándar: longitud, masa, tiempo y diez magnitudes derivadas. Ejemplos y explicación de cada cálculo.",
+      "canonicalOrigin": "https://pugestandar.com",
+      "defaultImage": "https://assets.zoolandingpage.com.mx/pugestandar.com/shared/images/test-pug-estandar-hero-20260909.png",
+      "openGraph": {
+        "type": "website",
+        "site_name": "Pug Estándar"
+      },
+      "twitter": {
+        "card": "summary_large_image"
+      }
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        }
+      ]
+    }
+  },
+  "runtime": {
+    "analytics": {
+      "enabled": false,
+      "consentUI": "none",
+      "track": []
+    },
+    "features": {
+      "debugMode": false
+    }
+  },
+  "environments": {
+    "test": {
+      "aliases": []
+    }
+  }
+}
