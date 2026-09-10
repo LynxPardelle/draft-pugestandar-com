@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "pageId": "allPages",
+  "domain": "pugestandar.com",
+  "combos": {
+    "peField": [
+      "ank-width-100per",
+      "ank-boxSizing-borderMINbox",
+      "ank-minHeight-48px",
+      "ank-padding-12px",
+      "ank-border-1px__solid__HASHcdd2c9",
+      "ank-borderRadius-10px",
+      "ank-bg-HASHfffdf8",
+      "ank-color-HASH20241f",
+      "ank-fontSize-16px",
+      "ank-textAlign-left"
+    ],
+    "peButton": [
+      "ank-cursor-pointer",
+      "ank-fontFamily-Arial",
+      "ank-transition-transform__180ms__ease",
+      "ank-transformHover-translateYSDMIN2pxED"
+    ],
+    "peMenu": [
+      "ank-bg-HASHfffdf8",
+      "ank-color-HASH20241f",
+      "ank-border-1px__solid__HASHcdd2c9",
+      "ank-borderRadius-10px",
+      "ank-padding-6px",
+      "ank-maxHeight-300px",
+      "ank-overflowY-auto",
+      "ank-minWidth-180px"
+    ],
+    "peOption": [
+      "ank-display-block",
+      "ank-padding-12px",
+      "ank-color-HASH20241f",
+      "ank-fontSize-15px",
+      "ank-textDecoration-none",
+      "ank-borderRadius-6px",
+      "ank-cursor-pointer",
+      "ank-bgHover-HASHe9eefc"
+    ]
+  }
+}

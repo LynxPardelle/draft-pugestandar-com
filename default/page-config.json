@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "pugestandar.com",
+  "rootIds": [
+    "pePage"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": {
+      "es": "Pug Estándar | Calculadora de unidades PE"
+    },
+    "description": {
+      "es": "Mide el mundo en otras patas. Calculadora PE con ejemplos y resultados explicados."
+    },
+    "canonical": "https://pugestandar.com/",
+    "robots": "noindex,nofollow"
+  },
+  "metadata": {
+    "status": "test-draft",
+    "systemVersion": "0.2.0"
+  }
+}
