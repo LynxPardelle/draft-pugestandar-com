@@ -31,28 +31,31 @@ function pug({ x = 25, y = 25, scale = 0.94, tilt = 0, point = false } = {}) {
       : `<path d="M86 105Q107 111 103 125Q97 134 87 121" fill="${c.sand}"/><path d="M86 103L95 107L88 119L80 113Z" fill="${c.paper}"/>`}
     <path d="M30 104Q12 112 19 125Q25 135 35 120" fill="${c.sand}"/>
     <path d="M31 103L22 108L30 119L38 112Z" fill="${c.paper}"/>
-    <!-- Broad pug head, folded ears and the same asymmetrical expression. -->
-    <path d="M23 51C20 27 38 17 61 18C86 17 106 30 106 55L108 77C107 101 90 108 61 107C32 108 16 99 17 78Z" fill="${c.sand}"/>
-    <path d="M28 33Q15 25 9 42Q7 56 22 65L32 45Z" fill="${c.ears}"/>
-    <path d="M94 32Q108 24 116 42Q119 56 103 66L92 45Z" fill="${c.ears}"/>
-    <path d="M15 39L23 51M109 39L102 51" fill="none" stroke="#86614a" stroke-width="2"/>
-    <path d="M43 37Q61 29 79 37M46 44Q61 38 76 44M53 50Q61 47 69 50" fill="none" stroke="#977754" stroke-width="2"/>
-    <path d="M28 67C28 52 48 48 54 63C61 79 47 88 33 79Z" fill="${c.ears}" stroke="none"/>
-    <path d="M69 64C75 48 95 51 96 67L93 80C76 89 63 80 69 64Z" fill="${c.ears}" stroke="none"/>
-    <ellipse cx="42" cy="66" rx="9" ry="11" fill="${c.ink}" stroke="none"/>
-    <ellipse cx="83" cy="66" rx="9" ry="11" fill="${c.ink}" stroke="none"/>
-    <circle cx="39" cy="62" r="3.6" fill="white" stroke="none"/>
-    <circle cx="80" cy="62" r="3.6" fill="white" stroke="none"/>
-    <circle cx="45" cy="71" r="1.8" fill="white" stroke="none"/>
-    <circle cx="86" cy="71" r="1.8" fill="white" stroke="none"/>
-    <path d="M46 74Q36 76 39 88Q41 99 60 96Q78 102 86 90Q93 75 75 74Q61 67 46 74Z" fill="${c.cream}"/>
-    <ellipse cx="29" cy="84" rx="7" ry="4.5" fill="${c.pink}" stroke="none" opacity="0.85"/>
-    <ellipse cx="96" cy="84" rx="7" ry="4.5" fill="${c.pink}" stroke="none" opacity="0.85"/>
-    <path d="M53 76Q62 71 71 76Q72 84 62 85Q52 83 53 76Z" fill="${c.ink}"/>
-    <path d="M62 85V89M62 89Q53 96 47 87M62 89Q72 95 78 87" fill="none" stroke-width="2.5"/>
-    <path d="M60 93Q65 90 71 94L71 101Q69 109 64 107Q58 105 60 93Z" fill="${c.pink}" stroke-width="2"/>
-    <path d="M65 96V101" fill="none" stroke-width="1.5"/>
-    <path d="M35 53L41 51M82 51L89 54" fill="none"/>
+    <!-- Low, broad fawn skull; folded black ears and a short dark pug muzzle. -->
+    <path d="M27 38Q38 29 50 32Q60 29 67 32Q82 29 97 38Q108 49 112 70L115 86C117 103 94 109 63 108C32 110 8 103 10 86L15 66Q18 48 27 38Z" fill="${c.sand}"/>
+    <path d="M33 36Q21 29 9 38Q-2 43 3 55L13 71Q17 78 23 66L39 40Z" fill="#35373c"/>
+    <path d="M91 35Q103 29 115 39Q128 45 121 59L112 72Q107 79 101 65L85 40Z" fill="#35373c"/>
+    <path d="M22 38Q14 41 12 49M103 38Q111 42 114 50" fill="none" stroke="#64605a" stroke-width="2.5"/>
+    <path d="M42 44Q49 40 56 44M68 43Q76 40 83 45M38 51Q48 46 58 51M66 51Q76 46 86 52" fill="none" stroke="#a58055" stroke-width="2"/>
+    <path d="M23 64C25 48 45 48 51 63C57 76 48 84 35 82C24 81 20 74 23 64Z" fill="#43474b" stroke-width="2"/>
+    <path d="M74 63C80 47 100 50 102 66C106 78 98 84 87 83C74 83 68 76 74 63Z" fill="#43474b" stroke-width="2"/>
+    <ellipse cx="36" cy="67" rx="10" ry="11" fill="#142b37" stroke="none"/>
+    <ellipse cx="88" cy="67" rx="10" ry="11" fill="#142b37" stroke="none"/>
+    <circle cx="32" cy="63" r="3.8" fill="white" stroke="none"/>
+    <circle cx="84" cy="63" r="3.8" fill="white" stroke="none"/>
+    <circle cx="39" cy="73" r="1.9" fill="white" stroke="none"/>
+    <circle cx="91" cy="73" r="1.9" fill="white" stroke="none"/>
+    <ellipse cx="25" cy="87" rx="7.5" ry="4.5" fill="${c.pink}" stroke="none" opacity="0.85"/>
+    <ellipse cx="101" cy="87" rx="7.5" ry="4.5" fill="${c.pink}" stroke="none" opacity="0.85"/>
+    <path d="M45 80C49 70 74 70 81 81L92 95C99 109 77 108 63 108C45 109 26 105 34 94Z" fill="#43474b"/>
+    <path d="M47 83Q43 88 39 94M77 83Q82 88 85 95" fill="none" stroke="#5b5b56" stroke-width="2"/>
+    <path d="M53 79Q63 73 74 79Q73 88 63 89Q53 86 53 79Z" fill="${c.ink}" stroke-width="2"/>
+    <ellipse cx="61" cy="79" rx="3" ry="1.5" fill="#65717a" stroke="none"/>
+    <path d="M63 87V92M63 92Q54 100 47 91M63 92Q72 100 79 91" fill="none" stroke-width="2.5"/>
+    <path d="M48 93L52 95L51 98Z" fill="${c.paper}" stroke="none"/>
+    <path d="M59 98Q64 95 70 98L70 105Q69 112 64 112Q58 111 57 105V99Z" fill="${c.pink}" stroke-width="2"/>
+    <path d="M64 99V105" fill="none" stroke-width="1.5"/>
+    <path d="M29 54L35 52M89 52L96 55" fill="none" stroke-width="2.5"/>
   </g>`;
 }
 
